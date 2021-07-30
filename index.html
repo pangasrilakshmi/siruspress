@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siruspress</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pictures/logo.PNG" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="explore.html">EXPLORE</a></li>
+                    <li><a href="oppurtunity.html">OPPURTUNITY</a></li>
+                    <li><a href="community.html">COMMUNITY</a></li>
+                    <li><a href="myaccount.html">MY ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Siruspress</h1>
+            <p>Read Write and Promote</p>
+            <a href="#" class="hero-btn">Know More</a>
+        </div>
+    </section>
+    <!----------- what you can ------------>
+    <section class="what">
+        <h1>What all can you read and write?</h1>
+       
+        <div class="row">
+            <div class="c-col">
+                <h3>STORIES</h3>
+                <p>A story is a means of transferring information, experience, attitude or point of view. 
+                    A narrative, story or tale is any account of a 
+                    series of related events or experiences, whether nonfictional or fictional.<br>
+                    Common techniques relevant to style, or the language chosen to tell a story, 
+                    include metaphors, similes, personification, imagery, hyperbole, and alliteration.It can be a short story also.
+                </p>
+            </div>
+            <div class="c-col">
+                <h3>POEMS</h3>
+                <p>A collection of words that express an emotion or idea, sometimes with a specific rhythm.Poems can be  lyric, narrative 
+                    or dramatic.<br>
+                    The main function of a poem is to convey an idea or emotion in beautiful language. It paints a picture of what the poet feels
+                     about a thing, person, idea, concept, or even an object.There are no fixed rules for a poem, you can use all your creativity using 
+                    extraordinary words to build a perfect poem.</p>
+            </div>
+            <div class="c-col">
+                <h3>NOVELS</h3>
+                <p> A novel describes an author's personal life and most memorable experiences. A novel is a nonfiction piece of writing that contains
+                     data and facts. A novel is a fictional narrative that provides a deeper understanding of human nature.<br>
+                      Types of Novels include Mysteries,Romance,Thrillers,Science Fiction,Fantasy,Historical Fiction.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------read and write----------->
+    <section class="part">
+        <div class="row">
+            <div class="c2-col">
+                <img src="pictures/read.jpg">
+                <div class="layer">
+                    <h3>Read</h3>
+                </div>
+            </div>
+            <div class="c2-col">
+                <img src="pictures/write.jpg">
+                <div class="layer">
+                    <h3>Write</h3>
+                </div>
+            </div>
+            <div class="c2-col">
+                <img src="pictures/publish.png">
+                <div class="layer">
+                    <h3>Publish</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-----trending stories------>
+ <div class="w3-container">
+    <h1 style="text-align:center"><b>Top 5 Trending Stories</b></h1>
+  </div>
+  
+  <div class="w3-content" style="max-width:200px">
+    <img class="mySlides" src="pictures/sb8.jpg" style="width:100%">
+    <img class="mySlides" src="pictures/sb2.png" style="width:100%">
+    <img class="mySlides" src="pictures/sb7.jpeg" style="width:100%">
+    <img class="mySlides" src="pictures/sb4.jpg" style="width:100%">
+    <img class="mySlides" src="pictures/sb5.jpeg" style="width:100%">
+  </div>
+  
+  <div class="w3-center">
+    <div class="w3-section">
+      <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+      <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    </div>
+    <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+    <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+    <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+    <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
+    <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
+  </div>
+	
+  <!-----open mic------->
+  <section class="last">
+  <h1 style="text-align:center"><b>Ongoing Event</b></h1>
+  <div class="openmic">
+    <div class="div1">
+        <img src="pictures/openmic.jpg">
+    </div>
+    <div class="div1">
+         <p><h1>Details</h1></p><br>
+          <h2>Date  :  15 Aug 2021<br>
+          Time  :  5:00 PM<br>
+          Language  :  English<br>            
+          Price  :  Rs.199<br>
+        <a href="oppurtunity.html"><button class="btn">Participate</button></h2></a>
+    </div>
+  </div>
+</section>
+ <!----Footer part----->
+       
+ <footer>
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="pictures/logo.PNG" alt="" class="logo">
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="rights-text">© 2021 All Rights Reserved by SirusPress.</p>
+      </div>
+
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Subscribe to our newsletter-</p>
+        <form action="" class="newsletter-form">
+          <input type="email" class="txtb" placeholder="Enter Your Emailid">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+    </footer>
+ 
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
